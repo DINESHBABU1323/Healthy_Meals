@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    left:0;
+    top: 0;
+    z-index: 100;
+    padding: .5rem 1rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: yellowgreen;
+}
+#navbarSupportedContent a{
+    color: white !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid yellowgreen;
+    transition: 0.8s;
+}
+#navbarSupportedContent button{
+    background-color: yellowgreen;
+    width: 5rem;
+    border-radius: 10px;
+}
+.logo{
+    height: 50px;
+    width: 70px;
+    border-radius: 3px;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home .container-fluid{
+    padding: 0px;
+}
+
+.carousel-item img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;  
+    opacity: 0.4;
+}
+.carousel-item ul{
+    background-color: black !important;
+    list-style-type: none;
+    padding: 0;
+}
+
+#home h1{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 4px;
+    text-shadow: 0px 6px 0px #ccc;
+}
+#home p{
+    color: #ccc;
+    justify-content: center;
+}
+#about{
+    background: linear-gradient(to right ,rgb(245, 231, 109),rgb(31, 230, 13) 100%);
+}
+
+#about img{
+    max-height: 300px;
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3);
+}
+#about a{
+    padding: 5px;
+    background: linear-gradient(to right ,rgb(78, 235, 46),rgb(13, 132, 230) 100%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+#about a:hover{
+    padding: 5px;
+    background: linear-gradient(to right ,rgb(233, 19, 19),rgb(230, 154, 13) 100%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+#about p{
+    text-align: justify;
+}
+#about i{
+    font-size: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+#about .info{
+    background-color: white !important;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    opacity: 0.8;
+    min-width: 220px;
+    box-shadow: 15px 20px 20px;
+}
+#about .content{
+    display: flex;
+    justify-content: center;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#foods{
+    background: linear-gradient(to right ,rgb(111, 119, 231),rgb(165, 39, 238) 100%);
+}
+#foods h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#foods .card{
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px rgba(204, 169, 169, 0.39);
+    align-self: normal;
+}
+#foods .card:hover{
+    border: none;
+    box-shadow:4px 4px 4px rgba(204, 169, 169, 0.39),inset 5px 5px 10px rgba(0,0,0, 0.3);
+}
+h5{
+    font-weight: 600 !important;
+    text-align: center;
+}
+#foods .no{
+    display: relative;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 4px 20px !important;
+    width: 20%;
+    
+}
+#foods .minus {
+    display: absolute;
+    left: 0;
+    padding: 0px 5px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#foods .minus:hover{
+    background: linear-gradient(to right ,rgb(111, 119, 231),rgb(165, 39, 238) 100%);
+    color: white;
+}
+#foods .num {
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+    border: 2px solid rgb(218, 215, 215);
+    background-color: whitesmoke;
+    color: rgb(20, 20, 20);
+    width: 60%;
+    border-radius: 5px;
+}
+#foods .plus {
+    display: absolute;
+    right: 0;
+    padding: 0px 5px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 20%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#foods .plus:hover{
+    background:linear-gradient(to right ,rgb(111, 119, 231),rgb(165, 39, 238) 100%);
+    color: white;
+}
+#foods a{
+    background-color: black;
+    color: yellowgreen;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#foods a:hover{
+    background: linear-gradient(to right ,rgb(111, 119, 231),rgb(165, 39, 238) 100%);
+    color: white;
+}
+
+
+
+#contact{
+    background: linear-gradient(to left ,rgb(46, 226, 196),rgb(113, 179, 224) 100%);
+}
+#contact img{
+    border-radius: 15px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3);
+}
+#contact button{
+    border: none;
+    background-color: black;
+    color: yellowgreen !important;
+}
+#contact button:hover{
+    background: linear-gradient(to left ,rgb(46, 226, 121),rgb(73, 168, 231) 100%);
+    color: black !important;
+}
+#form .form-control {
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.3);
+}
+#form button {
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.3);
+}
+footer .row{
+    background-color: black !important;
+}
